@@ -49,7 +49,7 @@ class Tree {
   }
 
  public:
-  Tree(std::vector<char> vec) {
+  explicit Tree(std::vector<char> vec) {
     root = new Node();
     root->number = 'x';
     addNode(root, vec);
